@@ -247,7 +247,7 @@ ul {
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  max-height: 400px; /* Yükseklik sınırlandırıldı */
+  max-height: 300px; /* Yükseklik sınırlandırıldı */
   overflow: hidden;
 }
 
@@ -277,43 +277,7 @@ ul {
   text-decoration: underline;
 }
 
-#article-detail {
 
-  padding: 10px 10px;
-  text-align: center;
-  background-color: rgb(140, 117, 90);
-}
-
-#article-detail .content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: calc(100vh - 10vh); /* Navigasyon çubuğunu dikkate al */
-}
-
-.article-box {
-  background-color: #0e0b0b;
-  border: 1px solid rgb(140, 117, 90);
-  border-radius: 10px;
-  padding: 35px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  max-width: 900px;
-  max-height: 600px;
-  text-align: left;
-}
-
-.article-box h1 {
-  font-size: 2rem;
-  color: #333;
-  margin-bottom: 20px;
-}
-
-.article-box p {
-  font-size: 1rem;
-  color: #444;
-  line-height: 1.6;
-  margin-bottom: 20px;
-}
 
 .download-link {
   display: inline-block;
